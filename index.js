@@ -1,5 +1,5 @@
 function main() {
-	const WAIT_TIME_MS = 2000;
+	const WAIT_TIME_MS = 750;
 	const offerButtons = document.querySelectorAll('button[data-test="button-default"]');
 	for (let i = 0; i < offerButtons.length; ++i) {
 		setTimeout(() => {
